@@ -1,0 +1,143 @@
+body {
+  background-image: url(assets/background.png);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  color: wheat;
+  font-size: 20px;
+}
+
+.Thelogo {
+  position: fixed;
+  margin-top: -390px;
+  margin-left: 300px;
+  top: 50%; /* Adjust the vertical position as needed */
+  left: 10%; /* Adjust the horizontal position as needed */
+  transform: translate(-50%, -50%); /* Center the element within the viewport */
+  z-index: 1;
+}
+
+.logos {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.logo2 {
+  margin-top: -35px;
+  margin-left: 10px;
+}
+.logo3 {
+  margin-left: 75px;
+  margin-top: -35px;
+}
+.nav {
+  /*width: 150vh;*/
+
+  margin-left: 500px;
+  margin-top: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #88bc47;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #88bc47;
+  color: white;
+}
+
+.pay {
+  width: 482px;
+  height: 640px;
+  flex-shrink: 0;
+  border-radius: 69px;
+  background: #414d66;
+  margin-top: -200px;
+}
+
+.card {
+  width: 490px;
+  height: 230px;
+  background-image: url(assets/African\ bank\ bank\ card.png);
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.card h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.card2 {
+  width: 390px;
+  height: 230px;
+  background-image: url(assets/Screenshot\ 2023-10-04\ 111347-benzin-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  margin-top: -100px;
+  margin-left: 67px;
+}
+
+.card2 h2 #form1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-left: 120px;
+  margin-top: -100px;
+}
+
+.welcome h1 {
+  margin-left: 800px;
+  margin-top: -500px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.welcome p {
+  width: 100%;
+  margin-left: 780px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #88bc47;
+}
+
+.card3 {
+  width: 390px;
+  height: 230px;
+  background-image: url(assets/Screenshot\ 2023-10-04\ 111208-benzin-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  margin-top: -100px;
+  margin-left: 67px;
+}
